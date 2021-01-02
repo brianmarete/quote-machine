@@ -3,7 +3,6 @@ import "./App.css";
 import React, { Component } from "react";
 import QuoteBox from "./components/QuoteBox";
 
-import ReactFCCtest from "react-fcctest";
 
 class App extends Component {
   state = {
@@ -34,7 +33,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ReactFCCtest />
         <QuoteBox
           quote={this.state.quote}
           author={this.state.author}
