@@ -1,0 +1,28 @@
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 40em;
+  height: 30vh;
+  margin: 20px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+}
+
+#quote-box-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#new-quote {
+  background-color: white;
+  border: 2px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+}

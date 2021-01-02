@@ -3,6 +3,10 @@ import "./App.css";
 import React, { Component } from "react";
 import QuoteBox from "./components/QuoteBox";
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(fab);
 
 class App extends Component {
   state = {
@@ -33,6 +37,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>Inspirational Quotes</h1>
         <QuoteBox
           quote={this.state.quote}
           author={this.state.author}
